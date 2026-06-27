@@ -6,24 +6,18 @@
         <description>Most recent updates to CleanPaste</description>
         <language>en</language>
         <item>
-            <title>Version 1.2.0</title>
-            <pubDate>Sat, 27 Jun 2026 23:01:44 +0000</pubDate>
-            <sparkle:version>20260627.7</sparkle:version>
-            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <title>Version 1.3.0</title>
+            <pubDate>Sat, 27 Jun 2026 23:17:55 +0000</pubDate>
+            <sparkle:version>20260627.8</sparkle:version>
+            <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <h2>What's New in 1.2.0</h2>
+                <h2>What's New in 1.3.0</h2>
                 <h3>Added</h3><ul>
-<li>"When clearing formatting" options with inline help:</li>
-<li>`CleanPaste AppStore` Xcode target (sandboxed, Sparkle-free) for Mac App Store distribution</li>
-<li>Sandbox-friendly app picker using `NSOpenPanel` under the `APPSTORE` flag</li>
-</ul>
-<h3>Changed</h3><ul>
-<li>Manual and automatic stripping now run through a shared `TextCleaner` that honors the new cleaning options</li>
-<li>Release workflow creates the GitHub Release via the `gh` CLI instead of a Node-based action</li>
+<li>Global keyboard shortcut (⌥⇧V) to clear clipboard formatting from anywhere, using Carbon hotkeys (no Accessibility permission required, sandbox-safe)</li>
 </ul>
             ]]></description>
-            <enclosure url="https://tarikd.github.io/cleanpaste-appcast/releases/CleanPaste-1.2.0.dmg" sparkle:edSignature="xFECOt+ZB46LO+/s9ghxXalfTQgzaEN14fyHQLTQeuCYry5PTNRX97ovJyek8tFnP9tXCkud0VU6MyqD65N7Dg==" length="1103390" type="application/octet-stream"/>
+            <enclosure url="https://tarikd.github.io/cleanpaste-appcast/releases/CleanPaste-1.3.0.dmg" sparkle:edSignature="iqQgbWf4Iq+uzYHXu7W/F7wcSRnDUfESphS7QiEBn9oJUYFlXEBjzmqz6HGnNkjfo1323WzDA0Bc0aSCSSduCw==" length="1107434" type="application/octet-stream"/>
         </item>
     </channel>
 </rss>
