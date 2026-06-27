@@ -5,5 +5,34 @@
         <link>https://tarikd.github.io/cleanpaste-appcast/appcast.xml</link>
         <description>Most recent updates to CleanPaste</description>
         <language>en</language>
+        <item>
+            <title>Version 1.1.0</title>
+            <pubDate>Sat, 27 Jun 2026 22:34:06 +0000</pubDate>
+            <sparkle:version>20260627.5</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 1.1.0</h2>
+                <h3>Added</h3><ul>
+<li>App icon and a matching accent color</li>
+<li>Launch at Login option (via `SMAppService`)</li>
+<li>Persistent all-time "clips cleaned" statistic</li>
+<li>App Store distribution support: sandbox entitlements, `APPSTORE` compile flag, and `docs/APP-STORE.md` guide</li>
+<li>`README.md` and proprietary `LICENSE`</li>
+</ul>
+<h3>Changed</h3><ul>
+<li>Appcast and DMG downloads are now hosted in a dedicated public repo (`cleanpaste-appcast`) served via GitHub Pages; Sparkle feed URL updated accordingly</li>
+<li>Rebuilt the menu bar popover UI with a native grouped `Form` (System Settings style) and a capsule primary action button</li>
+<li>Modernized views to use `.foregroundStyle` and system materials</li>
+<li>Abstracted updates behind an `AppUpdater` service so Sparkle can be excluded from App Store builds</li>
+<li>Set the bundle identifier to `com.cleanpaste.CleanPaste`</li>
+</ul>
+<h3>Fixed</h3><ul>
+<li>Release workflow YAML is now valid (an embedded here-doc previously broke parsing) and publishes to the public appcast repo via a deploy key</li>
+<li>Auto-strip no longer counts or touches non-text clipboard contents (images, files)</li>
+</ul>
+            ]]></description>
+            <enclosure url="https://tarikd.github.io/cleanpaste-appcast/releases/CleanPaste-1.1.0.dmg" sparkle:edSignature="06SXjq5jo+wuIH4A7I2g9s5ZNs4dDyUkBai323q64QsqCl/Su6/bIopDM12xU9LAV7aH9tRZkPYyx3sWnjVODQ==" length="1078558" type="application/octet-stream"/>
+        </item>
     </channel>
 </rss>
