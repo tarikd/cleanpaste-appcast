@@ -6,33 +6,24 @@
         <description>Most recent updates to CleanPaste</description>
         <language>en</language>
         <item>
-            <title>Version 1.1.0</title>
-            <pubDate>Sat, 27 Jun 2026 22:39:20 +0000</pubDate>
-            <sparkle:version>20260627.6</sparkle:version>
-            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <title>Version 1.2.0</title>
+            <pubDate>Sat, 27 Jun 2026 23:01:44 +0000</pubDate>
+            <sparkle:version>20260627.7</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <h2>What's New in 1.1.0</h2>
+                <h2>What's New in 1.2.0</h2>
                 <h3>Added</h3><ul>
-<li>App icon and a matching accent color</li>
-<li>Launch at Login option (via `SMAppService`)</li>
-<li>Persistent all-time "clips cleaned" statistic</li>
-<li>App Store distribution support: sandbox entitlements, `APPSTORE` compile flag, and `docs/APP-STORE.md` guide</li>
-<li>`README.md` and proprietary `LICENSE`</li>
+<li>"When clearing formatting" options with inline help:</li>
+<li>`CleanPaste AppStore` Xcode target (sandboxed, Sparkle-free) for Mac App Store distribution</li>
+<li>Sandbox-friendly app picker using `NSOpenPanel` under the `APPSTORE` flag</li>
 </ul>
 <h3>Changed</h3><ul>
-<li>Appcast and DMG downloads are now hosted in a dedicated public repo (`cleanpaste-appcast`) served via GitHub Pages; Sparkle feed URL updated accordingly</li>
-<li>Rebuilt the menu bar popover UI with a native grouped `Form` (System Settings style) and a capsule primary action button</li>
-<li>Modernized views to use `.foregroundStyle` and system materials</li>
-<li>Abstracted updates behind an `AppUpdater` service so Sparkle can be excluded from App Store builds</li>
-<li>Set the bundle identifier to `com.cleanpaste.CleanPaste`</li>
-</ul>
-<h3>Fixed</h3><ul>
-<li>Release workflow YAML is now valid (an embedded here-doc previously broke parsing) and publishes to the public appcast repo via a deploy key</li>
-<li>Auto-strip no longer counts or touches non-text clipboard contents (images, files)</li>
+<li>Manual and automatic stripping now run through a shared `TextCleaner` that honors the new cleaning options</li>
+<li>Release workflow creates the GitHub Release via the `gh` CLI instead of a Node-based action</li>
 </ul>
             ]]></description>
-            <enclosure url="https://tarikd.github.io/cleanpaste-appcast/releases/CleanPaste-1.1.0.dmg" sparkle:edSignature="U5aPaeJEnddZHfCQKpaHV0lbG1GvGg0inpAVj2D1tI5/24+OQeeEXaeMXYyjW7sPd2BDL8R35hB9v7C42X9GCQ==" length="1078510" type="application/octet-stream"/>
+            <enclosure url="https://tarikd.github.io/cleanpaste-appcast/releases/CleanPaste-1.2.0.dmg" sparkle:edSignature="xFECOt+ZB46LO+/s9ghxXalfTQgzaEN14fyHQLTQeuCYry5PTNRX97ovJyek8tFnP9tXCkud0VU6MyqD65N7Dg==" length="1103390" type="application/octet-stream"/>
         </item>
     </channel>
 </rss>
